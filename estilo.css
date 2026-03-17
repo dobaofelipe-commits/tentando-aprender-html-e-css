@@ -3,9 +3,29 @@ body {
 }
 
 .heading {
-    text-align: center;
+    text-align: right;
 }
 
 .sub-heading {
     text-align: center;
+}
+.titulo {
+                text-align: center;
+                font-family: 'Arial', sans-serif;
+                font-size: 32px;
+                color: #333333;
+ }
+
+ a{
+    color: #bb0f0f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-right: 30px;
+     text-align: center;
+ }
+
+
+a:hover{
+    color: #282d30;
+    text-decoration: underline;
 }
