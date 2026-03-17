@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    margin: 0;
 }
 
 .heading {
@@ -17,15 +18,41 @@ body {
  }
 
  a{
-    color: #bb0f0f;
+    color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 0px;
      text-align: center;
+     width: 100px;
+     height: 40px;
+     background-color: #000000;
+     padding: 4px;
+     background-color: #333333;
+     transition: opacity 0,3 ease;
  }
 
 
 a:hover{
-    color: #282d30;
-    text-decoration: underline;
+    background-color: #ff0000;
+}
+
+a img{
+    display: block;
+    width: 10%;
+    height: auto;
+    transition: all 0,3 ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quadrado {
+    border: 2px #000000;
+    padding: 10px;
+    width: 1500px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 214, 112);
+    text-align: center;
 }
