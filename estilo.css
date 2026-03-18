@@ -133,3 +133,20 @@ a img{
   -webkit-appearance: none;
   margin: 0;
 }
+
+.legenda{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 20px;
+    margin-right: 250px;
+}
+
+.imagens img{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    
+
+}
