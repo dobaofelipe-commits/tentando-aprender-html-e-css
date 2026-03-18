@@ -133,7 +133,3 @@ a img{
   -webkit-appearance: none;
   margin: 0;
 }
-
-.input-estilizado[type=number] {
-  -moz-appearance: textfield;
-}
