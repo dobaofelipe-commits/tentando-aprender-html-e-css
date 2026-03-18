@@ -96,3 +96,44 @@ a img{
 .g11 {
     border-left: 5px solid green;
 }
+
+.btn-calcular{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 3px;
+    border: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 800px;
+    cursor: pointer;
+    transition: 0,3;
+    margin-top: 200px;
+}
+
+.aproveitamento1{
+    background-color: rgb(247, 245, 244);
+    color: white;
+    border:3px;
+    border-color: #000000;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0,3;
+    margin-top: 200px;
+    
+}
+
+.aproveitamento1:hover{
+    border-color: #000000;
+}
+
+.aproveitamento1::-webkit-outer-spin-button,
+.aproveitamento1::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-estilizado[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,3 +1,22 @@
+function calcular() {
+  let pontos = document.getElementById("pontos").value;
+  let jogos = document.getElementById("jogos").value;
+
+  // transformar em número
+  pontos = Number(pontos);
+  jogos = Number(jogos);
+
+  if (jogos === 0) {
+    document.getElementById("resultado").innerText = "Jogos não pode ser 0";
+    return;
+  }
+
+  let aproveitamento = (pontos / (jogos * 3)) * 100;
+
+  document.getElementById("resultado").innerText =
+    "Aproveitamento: " + aproveitamento.toFixed(2) + "%";
+}
+
 const times = [
   { pos: 1, nome: "São Paulo", pontos: 16, jogos: 6 },
   { pos: 2, nome: "Palmeiras", pontos: 13, jogos: 6 },
@@ -18,7 +37,7 @@ const times = [
   { pos: 17, nome: "Botafogo", pontos: 3, jogos: 4 },
   { pos: 18, nome: "Remo", pontos: 3, jogos: 6 },
   { pos: 19, nome: "Cruzeiro", pontos: 3, jogos: 6 },
-  { pos: 20, nome: "Internacional", pontos: 2, jogos: 6 }
+  { pos: 20, nome: "Internacional", pontos: 2, jogos: 6 },
 ];
 
 // pega o tbody
