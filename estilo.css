@@ -17,21 +17,6 @@ body {
                 color: #333333;
  }
 
- a{
-    color: #ffffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    margin-right: 0px;
-     text-align: center;
-     width: 100px;
-     height: 40px;
-     background-color: #000000;
-     padding: 4px;
-     background-color: #333333;
-     transition: opacity 0,3 ease;
- }
-
-
 a:hover{
     background-color: #ff0000;
 }
@@ -55,4 +40,59 @@ a img{
     align-items: center;
     background-color: rgb(10, 214, 112);
     text-align: center;
+}
+.barra{
+    background-color: #333333;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 200px ;
+}
+
+
+.barra a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px;
+    text-align: center;
+    transition: 0.6s ease;
+}
+
+.barra a:hover{
+    background-color: #ff0000;
+    padding: 2px;
+    height: 22px;
+    
+}
+
+
+.tabela {
+  width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.tabela th, .tabela td {
+  padding: 10px;
+}
+
+.tabela tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.g4 {
+  border-left: 5px solid blue;
+}
+
+.z4 {
+  border-left: 5px solid red;
+}
+
+.g6 {
+    border-left: 5px solid yellow;
+}
+
+.g11 {
+    border-left: 5px solid green;
 }
